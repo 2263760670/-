@@ -23,7 +23,7 @@ void maoxian(void);
 void vill(void);
 void pi(void);//personal information本来想叫rw(人物)，但害怕后期加任务栏 
 void cd(void);//存档 
-int hp=200,mp=20,sp,ex=0,p=5,q=20,lv=1,i=1,eak=0,edf=0,gd=90000,viz=0,sh,tybosshp,x,hpboss,fb;
+int hp=200,mp=20,sp,ex=10,p=5,q=20,lv=1,i=1,eak=0,edf=0,gd=90000,viz=0,sh,tybosshp,x,hpboss,fb;
  
  
 int main(void)//主程序开始
