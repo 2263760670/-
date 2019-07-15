@@ -3,6 +3,6 @@ int main(void)
 {
     char a;
 	printf("%d",a);
-	printf("");
+	printf("\t\v");
 	return 0;
 	}
