@@ -10,7 +10,7 @@ int main(void)
 	//赋值
 	printf("哈哈哈\n");
 	//调用一个函数，\n为另起一行
-	printf("nh");
+	printf("%d",m);
 	//调用另一个函数
 	return 0;
 	//return 语句，可看做main结束语句
