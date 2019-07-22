@@ -2,6 +2,10 @@
 int main(void)
 {
 	printf("\a\n");
-	printf("nh\b\r\\");
+	printf
+		("google、bing、Yahoo、搜狗、360、神马、有道、中国搜索、盘古搜索、ZoomEye、Dogpile我们平时在搜索引擎搜索想要的答案就是简单输入想知道的文字，可是正确搜索可用并且准确信息的方法就是要学会用代码，下面介绍几种代码格式： 常用的GoogleHacking语法：1.intext：把网页的正文内容中的某个字符作为搜索的条件2.intitle：把网页标题中的某个字符作为搜索的条件3.cache：搜索搜索引擎里关于某些内容的缓存，可能会在过期内容中发现有价值的信息4.filetype：指定一个格式类型的文件作为搜索对象5.inurl：搜索包含指定字符的URL6.site：在指定的站点搜索相关内容上图可以看到语法可以合起来使用\n其他GoogleHacking语法：1.【引号 “ ”】把关键字打上引号后把引号部分作为整体来搜索2.【or 】同时搜索两个或者更多的关键字3.l【ink：】搜索某个网站的链接典型用法：1.找管理后台地址site:xxx.com intext:管理、后台、登录、用户名、密码、系统、帐号site:xxx.com inurl:login、admin、manage、manager、admin_login、system"
+		 "site:xxx.com intitle:管理、后台、登陆2.找上传类漏洞地址site:xxx.com inurl:file"
+		 "site:xxx.com inurl:upload3.找注入页面site:xxx.com inurl:php?id=4.找编辑器页面"
+		 "site:xxx.com inurl:ewebeditor");
 	return 0;
-	}
+}
