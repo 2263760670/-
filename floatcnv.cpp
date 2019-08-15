@@ -6,7 +6,7 @@ int main(void)
 	long n3 = 2000000000;
 	long n4 = 1234567890;
 	printf("%.1e %.1e %.1e %.1e\n",n1,n2,n3,n4);
-	printf("%ld %ld \n",n3,n4);
-	printf("%ld %ld %ld %ld\n",n1,n2,n3,n4);
+	printf("%1d %1d \n",n3,n4);
+	printf("%1d %1d %1d %ld\n",n1,n2,n3,n4);
 	return 0;	
 		}
