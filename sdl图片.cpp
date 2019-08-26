@@ -8,7 +8,7 @@ int main( int argc, char* args[] )
     SDL_Init( SDL_INIT_EVERYTHING );
  
     //设置窗口
-    screen = SDL_SetVideoMode( 1280, 480, 32, SDL_SWSURFACE );
+    screen = SDL_SetVideoMode( 640, 480, 32, SDL_SWSURFACE );
  
     //加载图像
     hello = SDL_LoadBMP( "hello.bmp" );
