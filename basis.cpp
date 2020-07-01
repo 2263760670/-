@@ -4,8 +4,9 @@ int main(void)//函数名int和void是定义main的一部分
 {	//函数开始
 	int m;	//声明
 	m = 1;	//赋值
-	printf("华为OceanStor Dorado\n");	//调用一个函数，\n为另起一行
+	printf("华为OceanStor Dorado嘿嘿嘿\n");	//调用一个函数，\n为另起一行
 	printf("%d",m);	//调用另一个函数
 	return 0;	//return 语句，可看做main结束语句
 /*end*/
 		}
+
